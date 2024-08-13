@@ -1,7 +1,12 @@
-# saj_richpresence
+# saj_morphin
 
 ## Information:
-This scripts works for < esx 1.7.5. When script configured and stared, online players will have a custom discord rich presence with the players ingame name and player ID.
-This script pulls the First and Lastname from the Database, when player joined there is a few seconds delay where it does not show the players name but is indicating that its loading those informations.
+This script includes two different morphin items that can be customized via the configuration file.
 
-In the config.lua you have to add discord app id, icon id.
+# Features:
+- __Customizable Item Names:__ The names of the morphin items can be modified in the configuration settings to suit your needs.
+- __License Requirement:__ One of the morphin items requires a valid firstaidcourse license, which is a prerequisite for using the item. This license is integrated with the esx_ambulancejob system.
+
+# Functionality:
+- __Revive Mechanism:__ When a morphin item is used near a dead player, the script will automatically respawn the player at the ESX ambulance respawn location. The respawned player will have their inventory cleared upon revival.
+- For further configuration details, please refer to the config.lua file.
