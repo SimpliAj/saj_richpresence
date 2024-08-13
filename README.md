@@ -1,15 +1,10 @@
-# saj_morphin
-
-## Requirements:
-- ESX Amulancejob
-
-## Information:
-This script includes two different morphin items that can be customized via the configuration file.
+# saj_richpresence
+saj_richpresence is a script designed for ESX versions up to 1.7.5 that integrates with Discord to provide custom rich presence information for online players.
 
 ## Features:
-- __Customizable Item Names:__ The names of the morphin items can be modified in the configuration settings to suit your needs.
-- __License Requirement:__ One of the morphin items requires a valid firstaidcourse license, which is a prerequisite for using the item. This license is integrated with the esx_ambulancejob system.
+- Custom Discord Rich Presence: Once configured and running, this script displays a custom rich presence for each online player, including their in-game name and player ID.
+Dynamic Data Retrieval: The script retrieves the player's first and last name from the database. During the initial connection, there may be a brief delay while the player’s name is loading.
 
-## Functionality:
-- __Revive Mechanism:__ When a morphin item is used near a dead player, the script will automatically respawn the player at the ESX ambulancejob respawn location. The respawned player will have their inventory cleared upon revival.
-- For further configuration details, please refer to the config.lua file.
+## Configuration:
+- Edit config.lua: Enter your Discord app ID and icon ID in the configuration file to set up the rich presence display.
+
